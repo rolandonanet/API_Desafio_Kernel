@@ -1,0 +1,27 @@
+#spring:
+#  data:
+#    mongodb:
+#      host: ds141188.mlab.com
+#      port: 41188
+#      username: rolandonanet
+#      password: MOV@43214244884
+#      authentication-database: heroku_2h0prhnv
+#      database: heroku_2h0prhnv
+#  server:
+#    port: 8080
+#    servlet:
+#      context-path: /fileTranfer/api
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: rolandonanet
+      password: MOV@43214244884
+      authentication-database: file
+      database: file
+  server:
+    port: 8080
+    servlet:
+      context-path: /fileTranfer/api
